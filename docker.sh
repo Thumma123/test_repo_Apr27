@@ -7,12 +7,12 @@ install(){
       sudo yum install -y  $1
 }
 
-start(){
-        sudo service $1 start
+stop(){
+        sudo service $1 stop
 }
 
-stop(){
-         service $1 stop
+start(){
+         service $1 start
 }
 
 status (){
